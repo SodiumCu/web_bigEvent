@@ -1,0 +1,97 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background: url(../images/login_bg.jpg) center; */
+    /* background-size: cover; */
+}
+
+
+/* 背景图片区域 */
+
+.bg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-img:hover img {
+    transform: scale(1.1);
+}
+
+#login-bg {
+    transition: all 1.5s;
+}
+
+
+/* 头部logo区域 */
+
+#logo {
+    position: absolute;
+    top: 50px;
+    z-index: 999;
+}
+
+
+/* 登陆注册区域 */
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* 表单的头部 */
+
+.login-title {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+
+/* 表单的内容 */
+
+.login-box,
+.reg-box {
+    padding: 0 30px;
+}
+
+.reg-box {
+    display: none;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input {
+    padding-left: 32px;
+}
+
+.links {
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 10px;
+}
